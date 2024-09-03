@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://crowncars.co.nz", // replace this with your deployed domain
-  author: "Crown Cars",
-  desc: "Drive Your Trade. The Ultimate Guide to Work Vehicle Solutions",
-  title: "Crown Cars NZ",
+  website: "https://theotech.co.nz", // replace this with your deployed domain
+  author: "The O Technology",
+  desc: "Discover The O Technology, your essential blog for the latest tech tools and strategies tailored for entrepreneurs and small businesses.",
+  title: "The O Technology 🤖",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,

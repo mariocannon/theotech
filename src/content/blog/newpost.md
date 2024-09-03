@@ -4,7 +4,7 @@ author: Crown Cars
 pubDatetime: 2024-07-15T14:30:31Z
 slug: how-to-fit-out-your-work-vehicle
 featured: true
-draft: false
+draft: true
 tags:
   - vehicle
   - packout
