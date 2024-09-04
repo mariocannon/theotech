@@ -4,7 +4,7 @@ author: Mario
 pubDatetime: 2024-08-14T13:06:31Z
 slug: ferrari 
 featured: false
-draft: false
+draft: true
 tags:
   - ferrari
   - Hypercar
