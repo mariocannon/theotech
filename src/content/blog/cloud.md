@@ -6,10 +6,11 @@ slug: cloudforbusiness
 featured: false
 draft: false
 tags:
-  - ferrari
-  - Hypercar
+  - googlecloud
+  - online
+  - business
 description:
-  The Legendary Ferrari f40 
+  Let’s talk about something that’s been a bit of a game-changer for businesses here in Aotearoa cloud storage. 
 ---
 # How Cloud Storage Has Transformed Kiwi Businesses
 
