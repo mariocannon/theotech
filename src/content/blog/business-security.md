@@ -10,7 +10,7 @@ tags:
   - online
   - business
 description:
-   Run your business smoother, faster, and smarter—creating efficiency using online technology 
+   The rise of advanced security technology has been a game-changer for businesses right across New Zealand
 ---
 
 ## Security Technology for Local Businesses. Why It’s More Important Than Ever
