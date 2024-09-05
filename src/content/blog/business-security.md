@@ -1,17 +1,16 @@
 ---
-title: Security Technology for Local Businesses
+title: Business security
 author: Boss
-pubDatetime: 2024-09-11T16:00:00Z
-slug: security 
+pubDatetime: 2024-08-21T15:01:31Z
+slug: Business-security 
 featured: true
 draft: false
 tags:
   - googlecloud
   - online
   - business
-  - security
 description:
-   Dive into the world of modern security solutions and explore what could make all the difference for your local operation.
+   Run your business smoother, faster, and smarter—creating efficiency using online technology 
 ---
 
 ## Security Technology for Local Businesses. Why It’s More Important Than Ever
