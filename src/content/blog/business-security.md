@@ -39,6 +39,8 @@ Most systems are wireless now, meaning you won’t need to rip up walls to insta
 
 If you’re keen to take it a step further, consider an alarm that links up with a monitoring service. For a small monthly fee, you’ll have professionals keeping an eye on things 24/7. It might be a worthwhile investment, especially if your business handles valuable stock or cash.
 
+We spoke to Mario from Secure Works who installs [arrowhead alarms](https://secure-works.co.nz)for small businesses.
+
 ### Access Control: Who’s Got the Keys?
 
 If you’re still handing out physical keys to your employees, it might be time to think again. Access control systems let you control who comes in and out of your building with the touch of a button. No more worrying about lost keys or changing locks!
