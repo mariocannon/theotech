@@ -1,10 +1,10 @@
 ---
-title: Example Draft Post
-author: Sat Naing
-pubDatetime: 2022-06-06T04:06:31Z
-slug: example-draft-post
-featured: false
-draft: true
+title:  How to use technology to find a pilates studio
+author: Theotech
+pubDatetime: 2025-03-01T04:06:31Z
+slug: your-pilates-studio
+featured: true
+draft: false
 tags:
   - TypeScript
   - Astro
