@@ -1,0 +1,85 @@
+---
+import { SITE } from "@config";
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import GameBuilder from "@components/snes/SnesBuilder";
+---
+
+<Layout
+  title={`SNES Game Builder | ${SITE.title}`}
+  description="Design a Super Nintendo platformer in your browser — draw the tiles and sprites, build the level, play it instantly, then export a real .sfc cartridge image."
+>
+  <Header activeNav="snes-builder" />
+  <Breadcrumbs />
+  <main id="builder-main">
+    <h1>SNES Game Builder</h1>
+    <p class="intro">
+      Draw your tiles and sprites, paint a level, play it right here, then
+      export a real <code>.sfc</code> cartridge image that runs in any Super Nintendo
+      emulator — or on original hardware with a flash cart.
+    </p>
+
+    <GameBuilder client:only="react" />
+
+    <details class="notes">
+      <summary>What the exported ROM contains</summary>
+      <p>
+        Every export assembles a complete 65816 machine-code platformer engine
+        from scratch and packs your data around it:
+      </p>
+      <ul>
+        <li>
+          A 256 KiB LoROM image with a valid cartridge header, interrupt vectors
+          and checksum.
+        </li>
+        <li>
+          BG mode 1 with a 64x64 tile background (512x512 pixels) and 16x16
+          hardware sprites.
+        </li>
+        <li>
+          Your 256 background tiles and 32 sprites, converted to the SNES 4bpp
+          planar format, plus 16 palettes in BGR555.
+        </li>
+        <li>
+          Player physics, tile collision, one-way platforms, hazards, coins,
+          stompable enemies and a goal.
+        </li>
+      </ul>
+      <p>
+        Your work is kept in this browser's local storage. Use <em
+          >Save project</em
+        > to keep a JSON copy you can reload later or move to another machine.
+      </p>
+    </details>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  #builder-main {
+    @apply mx-auto w-full max-w-6xl px-4 pb-8;
+  }
+  #builder-main h1 {
+    @apply text-2xl font-semibold sm:text-3xl;
+  }
+  #builder-main .intro {
+    @apply mb-6 mt-2 max-w-3xl italic;
+  }
+  #builder-main .notes {
+    @apply mt-10 rounded border border-skin-line p-4 text-sm;
+  }
+  #builder-main .notes summary {
+    @apply cursor-pointer font-semibold;
+  }
+  #builder-main .notes p {
+    @apply mt-3;
+  }
+  #builder-main .notes ul {
+    @apply mt-2 list-disc space-y-1 pl-6;
+  }
+  #builder-main .notes code {
+    @apply rounded bg-skin-card px-1;
+  }
+</style>
